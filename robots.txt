@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tianjiangao.github.io/sitemap.xml
