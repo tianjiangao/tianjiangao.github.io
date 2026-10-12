@@ -33,9 +33,9 @@ npm run preview
 
 ## 源码管理与发布
 
-当前线上仓库保存的是构建文件。这个目录是可维护的前端源码，不含现有 Sites 后端、数据库、账户身份或凭据。`website-source.zip` 不再是主要维护方式。
+此目录规范管理前端源码，不含现有 Sites 后端、数据库、账户身份或凭据。构建产物由 GitHub Actions 生成，`website-source.zip` 不再是主要维护方式。
 
-将修改加入一个独立分支，检查 PR 的构建；得到作者发布授权后，在 GitHub 仓库 Settings → Pages 将 Source 从 Deploy from a branch 改为 GitHub Actions，再合并到 main。main 的提交触发构建、检查及发布，PR 仅检查，不部署。部署产物只包含 `dist-pages`；源码、草稿和测试文件不进入站点。首次切换应记录原 main 提交，以便恢复旧发布方式。本文不表示切换或推送已经完成。
+将修改加入一个独立分支，检查 PR 的构建；得到作者发布授权后，在 GitHub 仓库 Settings → Pages 将 Source 从 Deploy from a branch 改为 GitHub Actions，再合并到 main。main 的提交触发构建、检查及发布，PR 仅检查，不部署。部署产物只包含 `dist-pages`；源码、草稿和测试文件不进入站点。首次切换应记录原 main 提交，以便恢复旧发布方式。网站内容从 app/ 和 content/ 更新，避免手改构建产物。
 
 标准地址仍是 https://tianjiangao.github.io/。如需项目路径测试，使用 `PAGES_BASE=/portfolio/ npm run build:pages`，检查命令及预览也设置同一环境变量。生产构建使用默认 `/`。
 

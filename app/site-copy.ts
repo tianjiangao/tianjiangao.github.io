@@ -12,14 +12,14 @@ export const interests = {
       title: "从工程实践出发，继续深入 AI。",
       body: "我希望既理解 AI 的原理，也理解它能解决什么问题。能源动力与计算机的学习是起点，机器人部署与系统调试让我接触到真实需求；目前，我在持续学习大模型、Agent、具身智能与相关工程工具；这些是学习方向，不是已经完成的研究成果。",
       evidence:
-        "在宇树科技参与 SLAM 调试与机器人部署；在中控技术、博华科技接触 DCS / PLC 联调、板卡测试及 FAT。",
+        "参与 SLAM 系统调试、机器人部署以及 DCS / PLC 基础测试与联调。",
     },
     {
       label: "沟通与协作",
       title: "我喜欢和人交流，把复杂的事情说明白。",
       body: "我善于倾听和人际沟通，愿意理解不同人的关切，再把技术、产品或研究结论讲清楚。对我来说，沟通既是建立信任，也是推动事情往前走。",
       evidence:
-        "参与海外客户与第三方监理的验收沟通，向国际市场负责人汇报调研；独立准备并讲解金融产品介绍会，担任学院新生杯足球队队长。",
+        "整理和汇报市场调研；独立准备并讲解金融产品介绍会，担任学院新生杯足球队队长。",
     },
   ],
   en: [
@@ -35,14 +35,14 @@ export const interests = {
       title: "Learning AI through an engineering lens.",
       body: "I want to understand both the principles of AI and the problems it can solve. Energy engineering and computing are my foundation; robotics and system debugging bring real requirements into view. I am now learning about large language models, agents, embodied AI, and the tools used to build with them. These are learning directions, rather than completed research contributions.",
       evidence:
-        "SLAM debugging and robot deployment at Unitree; basic DCS / PLC integration, board testing, and FAT support at SUPCON and Bohua.",
+        "SLAM systems debugging, robot deployment, and basic DCS / PLC testing and integration.",
     },
     {
       label: "People & collaboration",
       title: "I enjoy listening and making complex ideas clear.",
       body: "Interpersonal communication is one of my strengths. I try to understand what matters to different people and explain technical, product, or research information clearly.",
       evidence:
-        "Worked with overseas customers and third-party inspectors, presented market research, independently prepared a financial-product introduction, and captained my college’s freshmen football team.",
+        "Presented market research, independently prepared a financial-product introduction, and captained my college’s freshmen football team.",
     },
   ],
 };
@@ -55,7 +55,7 @@ export const copy = {
     available: "2027 届 · 寻找实习与校招机会",
     aboutTitle: "关于我",
     about:
-      "在真实系统里发现问题、拆解问题，是我目前最扎实的学习方式。从板卡测试、工业自动化，到机器人部署与 SLAM 调试，我逐渐学会在现场现象、系统配置和团队沟通之间寻找线索。",
+      "在真实系统里发现问题、拆解问题，是我目前最扎实的学习方式。从工业自动化，到机器人部署与 SLAM 系统调试，我逐渐学会在现场现象、系统配置和团队沟通之间寻找线索。",
     workTitle: "研究与实践",
     workNote:
       "从系统排障到产业研究：以下记录具体职责、方法与结果。展开可读完整说明。",
@@ -98,7 +98,7 @@ export const copy = {
     available: "Class of 2027 · Open to internships & graduate roles",
     aboutTitle: "About",
     about:
-      "Most of my learning starts with a real system and a concrete problem. Board testing, industrial automation, and robot deployment have taught me to connect observations in the field with system configuration and conversations across a team.",
+      "Most of my learning starts with a real system and a concrete problem. Industrial automation and robot deployment have taught me to connect observations in the field with system configuration and conversations across a team.",
     workTitle: "Selected work",
     workNote:
       "Selected contributions to robotics deployment and industry research. Expand each entry for context, methods, outcomes, and the limits of my role.",

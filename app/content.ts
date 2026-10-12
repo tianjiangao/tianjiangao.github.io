@@ -32,20 +32,6 @@ export const content = {
         ["DCS / PLC", "System Integration"],
       ],
       [
-        "博华科技",
-        "国际市场部 · 国际市场实习生",
-        "2025.01 — 2025.02",
-        "参与工厂验收测试，协同国外客户与第三方监理完成资料确认和现场沟通；开展海外无线传感器与预测性维护市场调研。",
-        ["FAT", "Market Research"],
-      ],
-      [
-        "博华科技",
-        "顺义生产部 · 生产与测试实习生",
-        "2024.07 — 2024.09",
-        "参与板卡质检、组装与组态测试，使用万用表、示波器和振动台支持样机功能与可靠性测试。",
-        ["Hardware Testing", "Quality Control"],
-      ],
-      [
         "中信证券",
         "紫竹院营业部 · 财富管理实习生",
         "2024.01 — 2024.02",
@@ -112,20 +98,6 @@ export const content = {
         "Jul 2025 — Aug 2025",
         "Perform basic DCS / PLC testing and system integration. Check drawings against physical assemblies and record issues for production and test teams.",
         ["DCS / PLC", "System Integration"],
-      ],
-      [
-        "Bohua Technology",
-        "International Market Intern",
-        "Jan 2025 — Feb 2025",
-        "Support FAT with overseas customers and third-party inspectors, coordinate documentation, and research overseas wireless sensors and predictive-maintenance solutions.",
-        ["FAT", "Market Research"],
-      ],
-      [
-        "Bohua Technology",
-        "Production & Test Intern",
-        "Jul 2024 — Sep 2024",
-        "Support board inspection, assembly, software configuration checks, and prototype testing with multimeters, oscilloscopes, and vibration test benches.",
-        ["Hardware Testing", "Quality Control"],
       ],
       [
         "CITIC Securities",

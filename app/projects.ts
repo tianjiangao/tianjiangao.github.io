@@ -37,7 +37,7 @@ export const projects: Record<"zh" | "en", Project[]> = {
     {
       id: "robot-guidance",
       title: "银行场景机器人导览系统",
-      type: "宇树科技 · 部署与系统调试",
+      type: "机器人部署与系统调试",
       period: "2026.09 — 至今",
       status: "正在部署与调试",
       summary:
@@ -57,7 +57,7 @@ export const projects: Record<"zh" | "en", Project[]> = {
     {
       id: "industry-research",
       title: "一级市场产业与公司研究",
-      type: "博佳资本 · 投资研究支持",
+      type: "产业与公司研究支持",
       period: "2026.01 — 2026.02",
       status: "已完成实习研究支持",
       summary:
@@ -77,7 +77,7 @@ export const projects: Record<"zh" | "en", Project[]> = {
     {
       id: "predictive-market",
       title: "海外预测性维护市场调研",
-      type: "博华科技 · 国际市场研究",
+      type: "海外市场与竞品研究",
       period: "2025.01 — 2025.02",
       status: "已完成专题报告与汇报",
       summary:
@@ -136,7 +136,7 @@ export const projects: Record<"zh" | "en", Project[]> = {
     {
       id: "robot-guidance",
       title: "Robot guidance in a bank environment",
-      type: "Unitree · Deployment & systems debugging",
+      type: "Robot deployment & systems debugging",
       period: "Sep 2026 — Present",
       status: "Deployment in progress",
       summary:
@@ -157,7 +157,7 @@ export const projects: Record<"zh" | "en", Project[]> = {
     {
       id: "industry-research",
       title: "Industry and company research for private-market investing",
-      type: "Bojia Capital · Research support",
+      type: "Industry & company research support",
       period: "Jan 2026 — Feb 2026",
       status: "Internship contribution completed",
       summary:
@@ -183,7 +183,7 @@ export const projects: Record<"zh" | "en", Project[]> = {
     {
       id: "predictive-market",
       title: "Overseas predictive-maintenance market research",
-      type: "Bohua Technology · International markets",
+      type: "Overseas markets & competitive research",
       period: "Jan 2025 — Feb 2025",
       status: "Report and presentation completed",
       summary:
