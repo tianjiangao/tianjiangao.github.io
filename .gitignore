@@ -1,0 +1,8 @@
+node_modules/
+dist-pages/
+.sites-runtime/
+.preview/
+github-pages/index.html
+.env*
+*.tsbuildinfo
+*.log
