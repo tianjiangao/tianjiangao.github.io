@@ -52,7 +52,7 @@ export const copy = {
     subtitle: "从工程实践出发，探索 AI 的实际应用、产业发展与商业价值。",
     bio: "北京工业大学能源动力本科生，辅修计算机。参与宇树科技机器人部署、SLAM 系统调试与 ROS 2 / DDS 排障，也做过产业与公司研究。",
     place: "北京，中国",
-    available: "2027 届 · 寻找实习与校招机会",
+    available: "2023 届 · 寻找实习与校招机会",
     aboutTitle: "关于我",
     about:
       "在真实系统里发现问题、拆解问题，是我目前最扎实的学习方式。从工业自动化，到机器人部署与 SLAM 系统调试，我逐渐学会在现场现象、系统配置和团队沟通之间寻找线索。",
@@ -95,7 +95,7 @@ export const copy = {
       "Exploring AI applications and the industries around them, grounded in hands-on engineering.",
     bio: "An Energy & Power Engineering undergraduate with a Computer Science minor at Beijing University of Technology. My experience spans robot deployment and SLAM system debugging at Unitree, industrial testing, and industry research.",
     place: "Beijing, China",
-    available: "Class of 2027 · Open to internships & graduate roles",
+    available: "Class of 2023 · Open to internships & graduate roles",
     aboutTitle: "About",
     about:
       "Most of my learning starts with a real system and a concrete problem. Industrial automation and robot deployment have taught me to connect observations in the field with system configuration and conversations across a team.",

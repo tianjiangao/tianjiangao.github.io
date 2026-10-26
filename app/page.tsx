@@ -395,11 +395,6 @@ export default function Home({
                   height="720"
                   loading="lazy"
                 />
-                <figcaption>
-                  {lang === "zh"
-                    ? "高天健 · 北京"
-                    : "Tianjian Gao Eric · Beijing"}
-                </figcaption>
               </figure>
             </div>
             <div
