@@ -7,8 +7,8 @@ export const content = {
         "宇树科技",
         "北京研发 · SLAM 系统调试实习生",
         "2026.09 — 至今",
-        "参与银行导览系统部署与联调、SLAM 与雷达节点检查，以及机器人网络和 ROS 2 / DDS 通信排查。",
-        ["SLAM", "ROS 2", "Jetson Orin"],
+        "目前在宇树科技北京研发团队实习，主要参与机器人 SLAM、具身智能数据采集与模型训练相关工作。日常使用 Linux、ROS 2 进行系统调试，涉及激光雷达、定位建图、通信排障和实际场景部署，也参与过银行导览机器人的部署与联调。近期重点是通过 PICO VR 设备遥操作人形机器人，采集抓取、搬运和放置等任务的真机数据，并探索模型微调与真机测试。目前正在学习和实践 VLA、模仿学习，希望逐步打通数据采集、模型训练到机器人自主执行任务的完整流程。",
+        ["SLAM", "ROS 2", "PICO VR", "Robot teleoperation"],
       ],
       [
         "宇树科技",
@@ -63,7 +63,7 @@ export const content = {
       ],
       [
         "正在学习",
-        "大模型、Agent、具身智能与相关工程工具；尚未形成可公开的项目成果。",
+        "VLA、模仿学习、大模型与 Agent；结合真机数据探索具身智能模型微调与测试，尚未形成可公开的模型训练或自主执行成果。",
       ],
     ],
   },
@@ -75,8 +75,8 @@ export const content = {
         "Unitree Robotics",
         "Beijing R&D · SLAM Systems Intern",
         "Sep 2026 — Present",
-        "Support bank-guidance robot deployment, SLAM and LiDAR node checks, robot networking, and ROS 2 / DDS communication troubleshooting.",
-        ["SLAM", "ROS 2", "Jetson Orin"],
+        "Currently interning with Unitree Robotics’ Beijing R&D team, contributing to robot SLAM, embodied-AI data collection, and model-training work. I use Linux and ROS 2 to debug LiDAR, localization and mapping, communication, and deployment in real environments, including integration work on a bank-guidance robot. My recent focus is teleoperating humanoid robots with PICO VR equipment to collect real-world demonstrations of grasping, carrying, and placing objects, while exploring model fine-tuning and on-robot testing. I am learning and applying vision-language-action (VLA) models and imitation learning, working toward a complete workflow from data collection and training to autonomous task execution.",
+        ["SLAM", "ROS 2", "PICO VR", "Robot teleoperation"],
       ],
       [
         "Unitree Robotics",
@@ -131,7 +131,7 @@ export const content = {
       ],
       [
         "Currently learning",
-        "Large language models, agents, embodied AI, and engineering tools. No public project outputs in these areas yet.",
+        "Vision-language-action (VLA) models, imitation learning, large language models, and agents. Exploring embodied-AI fine-tuning and testing with real-robot data; no public model-training or autonomous-execution results yet.",
       ],
     ],
   },
