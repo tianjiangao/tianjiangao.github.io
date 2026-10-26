@@ -7,7 +7,7 @@ export const content = {
         "宇树科技",
         "北京研发 · SLAM 系统调试实习生",
         "2026.09 — 至今",
-        "参与机器人 SLAM 与系统调试、PICO VR 遥操作及具身智能真机数据采集，探索模型微调与测试。",
+        "参与 ROS 2 / SLAM 调试、银行导览部署及 PICO VR 真机示教数据采集；数据处理、VLA 微调与测试仍在探索中。",
         ["SLAM", "ROS 2", "PICO VR", "Robot teleoperation"],
       ],
       [
@@ -32,6 +32,13 @@ export const content = {
         ["DCS / PLC", "System Integration"],
       ],
       [
+        "博华科技",
+        "国际市场与工业测试实习生",
+        "2024.07 — 2025.02（分阶段）",
+        "参与工业设备板卡与样机测试、海外客户 FAT 验收及沟通；调研海外无线振动传感器与预测性维护市场，整理竞品报告并汇报。",
+        ["Industrial Testing", "FAT", "Market Research"],
+      ],
+      [
         "中信证券",
         "紫竹院营业部 · 财富管理实习生",
         "2024.01 — 2024.02",
@@ -51,7 +58,7 @@ export const content = {
       ],
       [
         "机器人技术",
-        "ROS 2、DDS / CycloneDDS、Unitree SDK2；SLAM 与雷达节点检查、点云及里程计话题调试。",
+        "ROS 2、DDS / CycloneDDS、Unitree SDK2；Jetson Orin 上的 SLAM、激光雷达、点云与里程计调试；PICO VR 遥操作与真机示教数据采集。",
       ],
       [
         "工业与硬件",
@@ -63,7 +70,7 @@ export const content = {
       ],
       [
         "正在学习",
-        "VLA、模仿学习、大模型与 Agent；结合真机数据探索具身智能模型微调与测试，尚未形成可公开的模型训练或自主执行成果。",
+        "探索示教数据清洗、标注、episode 切分，以及 VLA 与模仿学习模型的微调和真机测试；尚无可公开的训练或自主执行结果。持续学习大模型与 Agent。",
       ],
     ],
   },
@@ -75,35 +82,42 @@ export const content = {
         "Unitree Robotics",
         "Beijing R&D · SLAM Systems Intern",
         "Sep 2026 — Present",
-        "Contribute to robot SLAM and systems debugging, PICO VR teleoperation, and embodied-AI data collection, while exploring model fine-tuning and on-robot testing.",
+        "Debug ROS 2 / SLAM systems and support bank-guidance deployment. Collect humanoid demonstrations with PICO VR; data preparation, VLA fine-tuning, and testing are ongoing explorations.",
         ["SLAM", "ROS 2", "PICO VR", "Robot teleoperation"],
       ],
       [
         "Unitree Robotics",
         "Hangzhou · Technical Support Intern",
         "Jul 2026 — Sep 2026",
-        "Support SDK-based A2 quadruped application development and troubleshooting. Document operation and development procedures, and review deployment needs for industrial inspection.",
+        "Supported A2 quadruped application development and troubleshooting with Linux, ROS 2, and Unitree SDK2. Documented procedures and reviewed industrial-inspection deployment needs.",
         ["Unitree SDK2", "Linux", "Technical Support"],
       ],
       [
         "Bojia Capital",
         "Investment Research Intern",
         "Jan 2026 — Feb 2026",
-        "Support primary-market research on energy storage, supercomputing, silicon wafers, innovative medicines, and dexterous hands. Participate in an on-site visit to an LLM company and organize research materials.",
+        "Supported private-market industry and company research across energy storage, supercomputing, silicon wafers, innovative medicines, and dexterous hands. Helped prepare research materials and joined an on-site visit to an LLM company.",
         ["Industry Research", "Commercialization"],
       ],
       [
         "SUPCON Technology",
         "Nuclear Power Unit · Automation Intern",
         "Jul 2025 — Aug 2025",
-        "Perform basic DCS / PLC testing and system integration. Check drawings against physical assemblies and record issues for production and test teams.",
+        "Performed basic DCS / PLC testing and integration. Checked engineering drawings against physical assemblies and documented issues for production and test teams.",
         ["DCS / PLC", "System Integration"],
+      ],
+      [
+        "Bohua Technology",
+        "International Markets & Industrial Testing Intern",
+        "Jul 2024 — Feb 2025 (separate placements)",
+        "Supported board and prototype testing, overseas-customer factory acceptance testing (FAT), and customer communication. Researched wireless vibration sensors and predictive-maintenance products and presented a competitor report.",
+        ["Industrial Testing", "FAT", "Market Research"],
       ],
       [
         "CITIC Securities",
         "Wealth Management Intern",
         "Jan 2024 — Feb 2024",
-        "Support customer communication, product introduction, and account-opening activities. Independently prepare and present one financial-product introduction session.",
+        "Supported customer communication, product introductions, and account-opening activities. Independently prepared and delivered one financial-product presentation.",
         ["Client Communication", "Presentation"],
       ],
     ],
@@ -119,7 +133,7 @@ export const content = {
       ],
       [
         "Robotics",
-        "ROS 2, DDS / CycloneDDS, and Unitree SDK2. Basic SLAM and LiDAR node checks, point-cloud and odometry topic debugging.",
+        "ROS 2, DDS / CycloneDDS, and Unitree SDK2; SLAM, LiDAR, odometry, and point-cloud debugging on Jetson Orin; PICO VR teleoperation and real-robot demonstrations.",
       ],
       [
         "Industry & hardware",
@@ -131,7 +145,7 @@ export const content = {
       ],
       [
         "Currently learning",
-        "Vision-language-action (VLA) models, imitation learning, large language models, and agents. Exploring embodied-AI fine-tuning and testing with real-robot data; no public model-training or autonomous-execution results yet.",
+        "Exploring demonstration cleaning, annotation, episode segmentation, and VLA / imitation-learning fine-tuning and on-robot testing. No validated training or autonomous-execution results to share yet. Also studying LLMs and agents.",
       ],
     ],
   },

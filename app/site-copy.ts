@@ -10,9 +10,9 @@ export const interests = {
     {
       label: "AI 与技术",
       title: "从工程实践出发，继续深入 AI。",
-      body: "我希望既理解 AI 的原理，也理解它能解决什么问题。能源动力与计算机的学习是起点，机器人部署与系统调试让我接触到真实需求；目前，我在持续学习大模型、Agent、具身智能与相关工程工具；这些是学习方向，不是已经完成的研究成果。",
+      body: "能源动力与计算机的学习让我从系统和数据两方面理解机器人。目前，我参与 PICO VR 遥操作与真机示教数据采集，逐步探索数据处理、VLA 微调和真机测试；大模型与 Agent 也是持续学习的方向。",
       evidence:
-        "参与 SLAM 系统调试、机器人部署以及 DCS / PLC 基础测试与联调。",
+        "参与 ROS 2 / SLAM 调试、银行导览部署与 PICO VR 遥操作；模型微调与自主执行仍在探索和验证中。",
     },
     {
       label: "沟通与协作",
@@ -28,14 +28,14 @@ export const interests = {
       title: "I like understanding why a business works.",
       body: "I am interested in finance and enjoy turning scattered information into commercial analysis. I look at technical approaches alongside customer needs, competition, and business models.",
       evidence:
-        "At Bojia Capital, I supported research across energy storage, supercomputing, silicon wafers, innovative medicines, and dexterous hands. At CITIC Securities, I worked on wealth-management and financial-product communication.",
+        "At Bojia Capital, I supported private-market research across energy storage, supercomputing, silicon wafers, innovative medicines, and dexterous hands. At CITIC Securities, I helped prepare and explain financial-product information.",
     },
     {
       label: "AI & engineering",
       title: "Learning AI through an engineering lens.",
-      body: "I want to understand both the principles of AI and the problems it can solve. Energy engineering and computing are my foundation; robotics and system debugging bring real requirements into view. I am now learning about large language models, agents, embodied AI, and the tools used to build with them. These are learning directions, rather than completed research contributions.",
+      body: "Robot systems give me a practical starting point for AI engineering. I collect real-robot demonstrations through PICO VR teleoperation and am exploring data preparation, VLA fine-tuning, and on-robot testing. Large language models and agents are also part of my ongoing study.",
       evidence:
-        "SLAM systems debugging, robot deployment, and basic DCS / PLC testing and integration.",
+        "ROS 2 / SLAM debugging, bank-guidance deployment, and PICO VR teleoperation. Model fine-tuning and autonomous execution remain exploratory.",
     },
     {
       label: "People & collaboration",
@@ -50,9 +50,9 @@ export const copy = {
   zh: {
     hello: "你好，我是",
     subtitle: "从工程实践出发，探索 AI 的实际应用、产业发展与商业价值。",
-    bio: "北京工业大学能源动力本科生，辅修计算机。参与宇树科技机器人部署、SLAM 系统调试与 ROS 2 / DDS 排障，也做过产业与公司研究。",
+    bio: "北京工业大学能源动力本科生，辅修计算机。目前在宇树北京研发团队参与机器人调试与真机示教数据采集，也有工业测试和产业研究经历。",
     place: "北京，中国",
-    available: "2023 届 · 寻找实习与校招机会",
+    available: "2023 年入学 · 预计 2027 年毕业 · 寻找实习与校招机会",
     aboutTitle: "关于我",
     about:
       "在真实系统里发现问题、拆解问题，是我目前最扎实的学习方式。从工业自动化，到机器人部署与 SLAM 系统调试，我逐渐学会在现场现象、系统配置和团队沟通之间寻找线索。",
@@ -92,13 +92,13 @@ export const copy = {
   en: {
     hello: "Hello, I’m",
     subtitle:
-      "Exploring AI applications and the industries around them, grounded in hands-on engineering.",
-    bio: "An Energy & Power Engineering undergraduate with a Computer Science minor at Beijing University of Technology. My experience spans robot deployment and SLAM system debugging at Unitree, industrial testing, and industry research.",
+      "Hands-on robotics, AI engineering, and industry research—grounded in practical work.",
+    bio: "I study Energy & Power Engineering with a Computer Science minor at Beijing University of Technology. At Unitree’s Beijing R&D team, I work on robot systems and real-robot demonstration data. My earlier experience includes industrial testing and industry research.",
     place: "Beijing, China",
-    available: "Class of 2023 · Open to internships & graduate roles",
+    available: "Entered in 2023 · Expected Graduation: 2027 · Open to Opportunities",
     aboutTitle: "About",
     about:
-      "Most of my learning starts with a real system and a concrete problem. Industrial automation and robot deployment have taught me to connect observations in the field with system configuration and conversations across a team.",
+      "I learn by working with real systems: checking a sensor, tracing a communication fault, or collecting a robot demonstration. Industrial testing and robotics have taught me to document problems clearly and work with others to resolve them.",
     workTitle: "Selected work",
     workNote:
       "Selected contributions to robotics deployment and industry research. Expand each entry for context, methods, outcomes, and the limits of my role.",

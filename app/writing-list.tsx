@@ -62,7 +62,7 @@ export function WritingList({ lang, base }: { lang: Language; base: string }) {
               </div>
               <h3>
                 {post.url ? (
-                  <a href={post.url} target="_blank" rel="noreferrer">
+                  <a href={post.url} target="_blank" rel="noopener noreferrer">
                     {lang === "zh" ? post.title : post.englishTitle} ↗
                   </a>
                 ) : lang === "zh" ? (
