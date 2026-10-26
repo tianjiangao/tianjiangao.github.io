@@ -7,7 +7,7 @@ export const content = {
         "宇树科技",
         "北京研发 · SLAM 系统调试实习生",
         "2026.09 — 至今",
-        "目前在宇树科技北京研发团队实习，主要参与机器人 SLAM、具身智能数据采集与模型训练相关工作。日常使用 Linux、ROS 2 进行系统调试，涉及激光雷达、定位建图、通信排障和实际场景部署，也参与过银行导览机器人的部署与联调。近期重点是通过 PICO VR 设备遥操作人形机器人，采集抓取、搬运和放置等任务的真机数据，并探索模型微调与真机测试。目前正在学习和实践 VLA、模仿学习，希望逐步打通数据采集、模型训练到机器人自主执行任务的完整流程。",
+        "参与机器人 SLAM 与系统调试、PICO VR 遥操作及具身智能真机数据采集，探索模型微调与测试。",
         ["SLAM", "ROS 2", "PICO VR", "Robot teleoperation"],
       ],
       [
@@ -75,7 +75,7 @@ export const content = {
         "Unitree Robotics",
         "Beijing R&D · SLAM Systems Intern",
         "Sep 2026 — Present",
-        "Currently interning with Unitree Robotics’ Beijing R&D team, contributing to robot SLAM, embodied-AI data collection, and model-training work. I use Linux and ROS 2 to debug LiDAR, localization and mapping, communication, and deployment in real environments, including integration work on a bank-guidance robot. My recent focus is teleoperating humanoid robots with PICO VR equipment to collect real-world demonstrations of grasping, carrying, and placing objects, while exploring model fine-tuning and on-robot testing. I am learning and applying vision-language-action (VLA) models and imitation learning, working toward a complete workflow from data collection and training to autonomous task execution.",
+        "Contribute to robot SLAM and systems debugging, PICO VR teleoperation, and embodied-AI data collection, while exploring model fine-tuning and on-robot testing.",
         ["SLAM", "ROS 2", "PICO VR", "Robot teleoperation"],
       ],
       [

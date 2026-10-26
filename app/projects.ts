@@ -36,23 +36,19 @@ export const projects: Record<"zh" | "en", Project[]> = {
   zh: [
     {
       id: "robot-guidance",
-      title: "银行场景机器人导览系统",
-      type: "机器人部署与系统调试",
+      title: "机器人 SLAM 与具身智能实践",
+      type: "系统调试与真机数据采集",
       period: "2026.09 — 至今",
-      status: "正在部署与调试",
-      summary:
-        "在 Jetson Orin 上检查 SLAM 与雷达节点，排查 ROS 2 / DDS 通信；切换 CycloneDDS 后恢复话题通信。",
-      background: "银行场景的机器人导览系统需要完成部署、建图及系统联调。",
-      problem:
-        "部署过程中出现节点与话题通信问题，需要区分网络配置、DDS 通信与节点运行状态。",
-      role: "作为实习生配合研发团队进行部署、系统检查与问题隔离，参与建图流程和地图保存接口调试。",
-      approach:
-        "检查 SLAM 与激光雷达节点，查看里程计和点云话题；排查网络及 ROS 2 / DDS 配置，切换 CycloneDDS 验证通信。",
-      outcome:
-        "该次排障恢复了话题通信。整体项目仍处于部署与调试阶段，我的参与集中于部署支持和系统联调。",
+      status: "实践进行中",
+      summary: "参与银行导览机器人部署与 SLAM 调试；通过 PICO VR 遥操作人形机器人，采集抓取、搬运和放置任务的真机数据。",
+      background: "当前实践涉及银行场景机器人导览系统的部署联调，以及面向具身智能的人形机器人数据采集与模型训练探索。",
+      problem: "一方面排查部署中的节点、网络与 DDS 通信问题；另一方面探索如何将遥操作真机数据用于模型微调与任务执行验证。",
+      role: "作为实习生参与机器人 SLAM 与系统调试、银行导览机器人部署联调，以及 PICO VR 遥操作和真机数据采集，并探索模型微调与测试。",
+      approach: "使用 Linux、ROS 2 检查 Jetson Orin 上的 SLAM、激光雷达、里程计与点云话题，排查网络及 DDS 配置；通过 PICO VR 遥操作人形机器人采集抓取、搬运和放置数据，学习和实践 VLA、模仿学习及模型微调与真机测试。",
+      outcome: "银行导览部署中的一次通信排障，通过切换 CycloneDDS 恢复了话题通信。近期工作重点是真机数据采集，并探索模型微调与真机测试，逐步衔接数据采集、训练与自主执行流程。",
       evidence:
         "目前无可公开的技术附件。企业内部源码、客户信息及敏感日志不在本站展示。",
-      tags: ["ROS 2", "SLAM systems", "Jetson Orin", "CycloneDDS"],
+      tags: ["SLAM", "ROS 2", "PICO VR", "Teleoperation", "VLA", "Imitation learning"],
     },
     {
       id: "industry-research",
@@ -135,24 +131,19 @@ export const projects: Record<"zh" | "en", Project[]> = {
   en: [
     {
       id: "robot-guidance",
-      title: "Robot guidance in a bank environment",
-      type: "Robot deployment & systems debugging",
+      title: "Robot SLAM & embodied AI in practice",
+      type: "Systems debugging & robot data collection",
       period: "Sep 2026 — Present",
-      status: "Deployment in progress",
-      summary:
-        "Checked SLAM and LiDAR nodes on Jetson Orin; restored ROS 2 topic connectivity by switching to CycloneDDS.",
-      background:
-        "A robot guidance system for a bank setting required deployment, mapping, and integration checks.",
-      problem:
-        "Node and topic communication issues during deployment needed to be isolated from network configuration and runtime issues.",
-      role: "Supported the R&D team as an intern with deployment, system checks, and issue isolation, including mapping and map-save interface debugging.",
-      approach:
-        "Inspected SLAM and LiDAR nodes, odometry, and point-cloud topics; checked network and DDS configuration, then verified communication after switching to CycloneDDS.",
-      outcome:
-        "Restored topic connectivity in this troubleshooting case. Overall deployment and debugging remain in progress; my contribution focuses on deployment support and systems integration.",
+      status: "Work in progress",
+      summary: "Support bank-guidance robot deployment and SLAM debugging; teleoperate humanoid robots with PICO VR to collect real-world demonstrations of grasping, carrying, and placing objects.",
+      background: "My current work spans deployment and integration of a bank-guidance robot, alongside humanoid-robot data collection and embodied-AI model-training exploration.",
+      problem: "Isolate node, network, and DDS communication issues during deployment, while exploring how teleoperated demonstrations can support model fine-tuning and on-robot task evaluation.",
+      role: "Contribute as an intern to SLAM and systems debugging, bank-guidance robot integration, PICO VR teleoperation, and real-robot data collection, while exploring model fine-tuning and testing.",
+      approach: "Use Linux and ROS 2 to inspect SLAM, LiDAR, odometry, and point-cloud topics on Jetson Orin and troubleshoot network and DDS configuration. Teleoperate humanoids with PICO VR to collect grasping, carrying, and placing demonstrations, while learning and applying vision-language-action (VLA) models, imitation learning, fine-tuning, and on-robot testing.",
+      outcome: "Restored ROS 2 topic connectivity in one bank-guidance deployment troubleshooting case by switching to CycloneDDS. Recent work focuses on collecting real-robot data and exploring fine-tuning and on-robot tests, working toward a workflow from data collection and training to autonomous execution.",
       evidence:
         "No public technical attachments are available. Internal code, customer information, and sensitive logs are excluded.",
-      tags: ["ROS 2", "SLAM systems", "Jetson Orin", "CycloneDDS"],
+      tags: ["SLAM", "ROS 2", "PICO VR", "Teleoperation", "VLA", "Imitation learning"],
     },
     {
       id: "industry-research",
